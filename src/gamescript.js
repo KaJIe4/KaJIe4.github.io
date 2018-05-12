@@ -61,7 +61,7 @@ ship.updateY();
 
 addAsteroid:function(event){
 var asteroid = new Asteroid();
-this.addChild(asteroid,1);
+this.addChild(asteroid,1.2);
 },
 
 removeAsteroid:function(asteroid){
@@ -114,7 +114,7 @@ this.initWithFile("assets/asteroid.png");
 },
 onEnter:function() {
 this._super();
-this.scale=0.13;
+this.scale=0.09;
 this.setPosition(600,Math.random()*320);
 var moveAction= cc.MoveTo.create(2.5, new cc.Point(-100,Math.random()*320));
 this.runAction(moveAction);
