@@ -114,7 +114,7 @@ this.initWithFile("assets/asteroid.png");
 },
 onEnter:function() {
 this._super();
-this.scale=0.3;
+this.scale=0.13;
 this.setPosition(600,Math.random()*320);
 var moveAction= cc.MoveTo.create(2.5, new cc.Point(-100,Math.random()*320));
 this.runAction(moveAction);
