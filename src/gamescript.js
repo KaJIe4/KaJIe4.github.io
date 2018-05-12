@@ -1,6 +1,6 @@
 var background;
 var gameLayer;
-var scrollSpeed = 0.3;
+var scrollSpeed = 0.6;
 var ship;
 var gameGravity = -0.05;
 var gameThrust = 0.1;
@@ -116,7 +116,7 @@ onEnter:function() {
 this._super();
 this.scale=0.09;
 this.setPosition(600,Math.random()*320);
-var moveAction= cc.MoveTo.create(2.5, new cc.Point(-100,Math.random()*320));
+var moveAction= cc.MoveTo.create(4, new cc.Point(-100,Math.random()*320));
 this.runAction(moveAction);
 this.scheduleUpdate();
 },
