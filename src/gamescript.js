@@ -90,7 +90,7 @@ var Ship = cc.Sprite.extend({
 ctor:function() {
 this._super();
 this.initWithFile("assets/ship.png");
-this.scale =0.4;
+this.scale =0.133;
 this.ySpeed = 0;
 this.engineOn = false;
 },
