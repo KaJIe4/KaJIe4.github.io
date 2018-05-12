@@ -49,7 +49,7 @@ ship.engineOn = false;
 background = new ScrollingBG();
 this.addChild(background);
 this.scheduleUpdate();
-this.schedule(this.addAsteroid,0.5);
+this.schedule(this.addAsteroid,1);
 ship = new Ship();
 this.addChild(ship);
 },
