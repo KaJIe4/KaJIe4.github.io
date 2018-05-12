@@ -1,6 +1,6 @@
 var background;
 var gameLayer;
-var scrollSpeed = 1;
+var scrollSpeed = 0.7;
 var ship;
 var gameGravity = -0.05;
 var gameThrust = 0.1;
